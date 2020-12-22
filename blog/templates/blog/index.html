@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{judul}} | {{subjudul}}</title>
+    </head>
+    <body>
+        <h1>INI {{judul}}</h1>
+        <h2>{{subjudul}}</h2>
+        <p>{{badan}}</p>
+        <ul>
+            {%for link,name in nav%}
+            <li><a href="{{link}}">{{name}}</a></li>
+            {%endfor%}
+        </ul>
+    </body>
+</html>
